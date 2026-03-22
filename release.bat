@@ -22,7 +22,7 @@ echo.
 
 :: Step 1: Update version.py
 echo [1/6] Updating version.py to %VERSION%...
-python -c "import re; f=open('version.py'); c=f.read(); f.close(); c=re.sub(r'__version__ = \".*?\"','__version__ = \"%VERSION%\"',c); f=open('version.py','w'); f.write(c); f.close(); print('Done.')"
+python -c "import re; f=open('version.py', encoding='utf-8'); c=f.read(); f.close(); c=re.sub(r'__version__ = \".*?\"','__version__ = \"%VERSION%\"',c); f=open('version.py','w', encoding='utf-8'); f.write(c); f.close(); print('Done.')"
 if errorlevel 1 ( echo ERROR: Could not update version.py & goto :END )
 
 :: Step 2: Rebuild icon
