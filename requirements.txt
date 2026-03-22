@@ -1,0 +1,25 @@
+# Study Companion — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Web framework (trendy, fast)
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# Desktop window (renders the web UI natively, no browser chrome)
+pywebview>=5.0
+
+# Google Gemini (FREE tier — no credit card required for basic use)
+google-generativeai>=0.8.0
+
+# Screen capture
+mss>=9.0.0
+Pillow>=10.4.0
+
+# Windows APIs (active window, process names)
+pywin32>=308
+
+# System monitoring
+psutil>=6.1.0
+
+# Keyboard listener (typing detection only — no keylogging)
+pynput>=1.7.7

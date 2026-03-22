@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# PyInstaller output
+build/
+dist/
+*.spec.bak
+
+# App data (personal, not source code)
+study_sessions.db
+.gemini_key
+study_companion.ico
+
+# Installer output
+installer_output/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
